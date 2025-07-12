@@ -6,4 +6,8 @@ export default antfu({
     quotes: 'single',
   },
   typescript: true,
+  rules: {
+    'antfu/no-top-level-await': 'off',
+    'no-console': 'off',
+  },
 })
